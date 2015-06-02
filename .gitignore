@@ -41,3 +41,22 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Generic Folders
+Library\*.*
+Temp\*.*
+Obj\*.*
+Builds\*.*
+
+# Specific Files
+UnityVS.*.csproj
+Assembly-CSharp*.*
+UnityVS.*.sln
+!UnityVS.*.sln.DotSettings
+
+# Files in all Folders
+*.unityproh
+*.pidb
+*.userprefs
+*.suo
+*.user

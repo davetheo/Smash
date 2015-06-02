@@ -43,20 +43,28 @@ Temporary Items
 .apdisk
 
 # Generic Folders
-Library\*.*
-Temp\*.*
-Obj\*.*
-Builds\*.*
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uils/
 
 # Specific Files
-UnityVS.*.csproj
-Assembly-CSharp*.*
-UnityVS.*.sln
-!UnityVS.*.sln.DotSettings
+*.csproj
+*.sln
+*.tmp
+
 
 # Files in all Folders
-*.unityproh
+*.unityproj
 *.pidb
 *.userprefs
 *.suo
 *.user
+*.pidb
+*.booproj
+
+# Unity3d meta files
+*.midb.meta
+
+# Unity3d crash report file
+sysinfo.txt
